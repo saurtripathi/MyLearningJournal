@@ -60,7 +60,7 @@ hero-title {
 .hero-date {
     height: 15px;
     font-weight: 400;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 15px;
     padding-top: 87px;
     margin: 0 1.12em;
@@ -83,8 +83,7 @@ hero-title {
     font-size: 0.9rem;
     line-height: 20px;
     margin: 8px 20px 25px 20px;
-    padding-top: 1em;
-    ;
+    padding-top: 1.125em;
 }
 
 .card {
@@ -254,7 +253,7 @@ footer p {
 }
 
 article {
-    background-color: #f1faee;
+    background-color: whitesmoke;
     margin: 2em 0;
 }
 
