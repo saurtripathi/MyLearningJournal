@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 2em;
+    padding: 0 2em;
 }
 
 .container-flex {
@@ -33,6 +33,7 @@ body {
     background-size: cover;
     padding-bottom: 2em;
     margin-bottom: 2em;
+    margin-top: 0;
 }
 
 hero-title {
@@ -60,10 +61,10 @@ hero-title {
 .hero-date {
     height: 15px;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 1.125rem;
     line-height: 15px;
     padding-top: 87px;
-    margin: 0 1.12em;
+    margin-left: 1.13em;
 }
 
 
@@ -80,7 +81,7 @@ hero-title {
 .hero-body {
     height: 80px;
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.125rem;
     line-height: 20px;
     margin: 8px 20px 25px 20px;
     padding-top: 1.125em;
@@ -176,7 +177,7 @@ li a {
     text-decoration: none;
     font-style: normal;
     font-weight: 600;
-    font-size: 0.75rem;
+    font-size: 1.5rem;
     line-height: 0.9375rem;
     text-align: right;
     color: #090909;
@@ -235,7 +236,7 @@ footer p {
     color: #0E0E0E;
     line-height: 108.2%;
     letter-spacing: -0.03rem;
-
+    font-size: 1.5rem;
 }
 
 .card-title {
@@ -260,6 +261,7 @@ article {
 i {
     height: 1.34rem;
     width: 1.34rem;
+    
 }
 
 .btn {
