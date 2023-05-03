@@ -15,6 +15,13 @@ body {
     margin: 0 auto;
 }
 
+.container-flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
 .container-flex {
     display: flex;
     flex-direction: column;
@@ -40,6 +47,7 @@ hero-title {
     color: #FFFFFF;
     margin: 110px 20px 48px 30px;
 }
+
 .hero-date,
 .hero-title,
 .hero-body {
@@ -48,13 +56,14 @@ hero-title {
     font-style: normal;
     color: #FFFFFF;
 }
+
 .hero-date {
     height: 15px;
     font-weight: 400;
     font-size: 0.7rem;
     line-height: 15px;
-    padding-top: 87px ;
-    margin: 0 1.12em ;
+    padding-top: 87px;
+    margin: 0 1.12em;
 }
 
 
@@ -64,7 +73,7 @@ hero-title {
     font-size: 1.8rem;
     line-height: 108.2%;
     letter-spacing: -0.03em;
-    padding:8px 20px;
+    padding: 8px 20px;
     margin: 0;
 }
 
@@ -74,7 +83,8 @@ hero-title {
     font-size: 0.9rem;
     line-height: 20px;
     margin: 8px 20px 25px 20px;
-    padding-top: 1em;;
+    padding-top: 1em;
+    ;
 }
 
 .card {
@@ -189,7 +199,7 @@ footer {
 }
 
 footer div {
-padding: 1em 2em;
+    padding: 1em 2em;
 }
 
 footer strong {
@@ -199,22 +209,22 @@ footer strong {
     font-weight: 700;
     line-height: 0.72em;
     letter-spacing: -0.03em;
-    text-align: center;  
+    text-align: center;
 
 }
 
 footer p {
 
 
-height: 15px;
-font-family: inherit;
-font-style: normal;
-font-weight: 400;
-font-size: 0.67rem;
-line-height: 125%;
-text-align: center;
-color: #D7D7D7;
-margin: auto;
+    height: 15px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.67rem;
+    line-height: 125%;
+    text-align: center;
+    color: #D7D7D7;
+    margin: auto;
 }
 
 
@@ -226,6 +236,7 @@ margin: auto;
     color: #0E0E0E;
     line-height: 108.2%;
     letter-spacing: -0.03rem;
+
 }
 
 .card-title {
@@ -243,7 +254,24 @@ margin: auto;
 }
 
 article {
-    background-color: #f8f9fa;
+    background-color: #f1faee;
     margin: 2em 0;
 }
 
+i {
+    height: 1.34rem;
+    width: 1.34rem;
+}
+
+.btn {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin: 2em auto;
+    
+
+}
