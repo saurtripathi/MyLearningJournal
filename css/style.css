@@ -231,9 +231,13 @@ i {
 @media(min-width:600px) {
     .container {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap:1em;
-        grid-template-areas: "header header header" "hero hero hero";
-                                      
+        grid-gap: 1em;
+        grid-template-areas: "header header header"
+            "hero hero hero"
+            "card card card"
+            "card card card"
+            ". view .";
+
     }
 
 
@@ -241,7 +245,7 @@ i {
         grid-area: hero;
     }
 
-/* 
+
     .btn {
         display: block;
         font-style: normal;
@@ -252,6 +256,6 @@ i {
         color: #000000;
         margin: 2em auto;
         grid-area: view;
-    } */
+    }
 
 }
