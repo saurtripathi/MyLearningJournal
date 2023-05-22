@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 900px;
     margin: 0 auto;
     display: grid;
@@ -23,7 +23,7 @@ body {
     background-size: cover;
     padding-bottom: 2em;
     margin-bottom: 2em;
-    margin-top: 0;
+    margin:0 0 34px 0;
     /* grid-area: hero; */
 }
 
@@ -117,19 +117,20 @@ ul {
 
 }
 
+
 li {
     float: right;
 }
 
 li a {
-    display: block;
+    display: block;;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px ;
     text-decoration: none;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     line-height: 0.9375rem;
     text-align: right;
     color: #090909;
@@ -140,8 +141,13 @@ li a:hover {
 }
 
 header {
+    display: flex;
     background-color: #FFFFFF;
     grid-area: header;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+
 }
 
 
@@ -185,12 +191,19 @@ footer p {
 .journal-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 0.846875rem;
     color: #0E0E0E;
     line-height: 108.2%;
     letter-spacing: -0.03rem;
-    font-size: 1.5rem;
+    font-size: 0.846875rem;
+    /* height: 0.9375rem; */
+    margin: .7em 0.5em;
+    
 }
+
+.journal-title  span {
+    margin-right: 0;
+}
+
 
 .card-title {
     font-size: 1.34rem;
@@ -214,7 +227,7 @@ article {
 i {
     height: 1.34rem;
     width: 1.34rem;
-
+    margin-right: -10px;
 }
 
 .btn {
