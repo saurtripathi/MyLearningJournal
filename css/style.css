@@ -15,7 +15,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 1fr;
     grid-template-areas: "header";
                    
 }
