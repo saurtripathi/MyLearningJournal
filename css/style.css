@@ -150,10 +150,10 @@ header {
 footer {
     height: 105px;
     background: #202020;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    width: 110%;
+    /* width: 110%; */
     grid-area: footer;
 }
 
