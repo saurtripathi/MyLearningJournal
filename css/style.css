@@ -17,9 +17,8 @@ body {
     display: grid;
 
     grid-template-columns: auto;
-    grid-template-areas: "header" 
-    "post" 
-    "footer";
+    grid-template-areas: "header" ;
+
 
     /* background-color: whitesmoke; */
 }
@@ -30,7 +29,6 @@ body {
     background-size: cover;
     padding-bottom: 2em;
     margin-bottom: 1em;
-    grid-area: post;
 }
 
 
@@ -153,7 +151,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-area: footer;
 }
 
 footer div {
@@ -236,8 +233,7 @@ i {
 }
 
  .card {
-    /* margin: 0 1em 1em 1em; */
-    /* margin: 0.5em 1.5em; */
+    margin: 0.5em 1.5em;
 } 
 
 @media(min-width:600px) {
