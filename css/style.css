@@ -13,7 +13,7 @@ body {
 .container {
     width: 100%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 1em auto;
     display: grid;
 
     grid-template-columns: auto;
@@ -104,8 +104,8 @@ hero-title {
 }
 
 .card-image {
-    width: 374px;
-    height: 368px;
+    width: 100%;
+    height: 232px;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -228,7 +228,6 @@ footer p {
 i {
     height: 1.34rem;
     width: 1.34rem;
-    margin-right: -10px;
 }
 
 .btn {
