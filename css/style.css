@@ -147,7 +147,7 @@ header {
 
 
 
-footer {
+.footer {
     height: 105px;
     background: #202020;
     display: flex;
@@ -156,11 +156,11 @@ footer {
     grid-column: 1/-1;
 }
 
-footer div {
+.footer div {
     padding: 1em 2em;
 }
 
-footer strong {
+.footer strong {
     color: #ECECEC;
     font-family: inherit;
     font-size: 0.67rem;
@@ -171,7 +171,7 @@ footer strong {
 
 }
 
-footer p {
+.footer p {
 
 
     height: 15px;
