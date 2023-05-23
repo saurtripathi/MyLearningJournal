@@ -17,7 +17,9 @@ body {
     display: grid;
 
     grid-template-columns: auto;
-    grid-template-areas: "header";
+    grid-template-areas: "header" 
+    "post" 
+    "footer";
 
     /* background-color: whitesmoke; */
 }
@@ -28,6 +30,7 @@ body {
     background-size: cover;
     padding-bottom: 2em;
     margin-bottom: 1em;
+    grid-area: post;
 }
 
 
@@ -151,6 +154,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    grid-area: footer;
 }
 
 footer div {
