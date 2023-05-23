@@ -243,9 +243,9 @@ i {
     margin: 2em auto;
 }
 
-.card {
+/* .card {
     margin: 0 1em 1em 1em;
-}
+} */
 
 @media(min-width:600px) {
     .container {
