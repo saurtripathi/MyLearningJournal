@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
     display: grid;
 
-    grid-template-columns: auto;
+    grid-template-columns: 414px;
     grid-template-areas: "header";
 
         /* background-color: whitesmoke; */
