@@ -233,6 +233,7 @@ i {
     text-decoration-line: underline;
     color: #000000;
     margin: 2em auto;
+    grid-column: 2/3;
 }
 
  .card {
