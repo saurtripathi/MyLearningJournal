@@ -15,8 +15,8 @@ body {
     max-width: 900px;
     margin: 0 auto;
     display: grid;
-
-    grid-template: repeat(10,auto) / 1em auto 1em;
+    grid-template-columns: auto;
+    grid-template-areas: "header";
                    
 }
 
@@ -28,8 +28,7 @@ body {
     background-size: cover;
     padding-bottom: 2em;
     margin-bottom: 1em;
-    grid-column: 1/-1;
-    grid-row: 2/3;
+
 }
 
 
@@ -141,8 +140,7 @@ header {
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-area: header;
 }
 
 
@@ -153,8 +151,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column: 1/-1;
-    margin: 0;
+    width: 100%;
 }
 
 .footer div {
@@ -234,12 +231,10 @@ i {
     text-decoration-line: underline;
     color: #000000;
     margin: 2em auto;
-    grid-column: 2/3;
 }
 
  .card {
     margin: 0.5em 1.5em;
-    grid-column: 2/3;
 } 
 
 @media(min-width:600px) {
