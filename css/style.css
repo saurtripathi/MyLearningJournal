@@ -145,7 +145,7 @@ header {
 
 
 
-.footer {
+footer {
     height: 105px;
     background: #202020;
     display: flex;
@@ -154,11 +154,11 @@ header {
     width: 100%;
 }
 
-.footer div {
+footer div {
     padding: 1em 2em;
 }
 
-.footer strong {
+footer strong {
     color: #ECECEC;
     font-family: inherit;
     font-size: 0.67rem;
@@ -169,7 +169,7 @@ header {
 
 }
 
-.footer p {
+footer p {
 
 
     height: 15px;
@@ -246,7 +246,7 @@ i {
         "card card card"
         "card card card"
         "view view view"
-        ". footer ."
+        "footer footer footer"
 ;
 
     }
@@ -284,23 +284,24 @@ i {
 
     .journal-title {
         margin-left: 25px;
+        font-size: 1.25rem;
+        align-self: center;
     }
 
     i {
         margin-right: 2px;
     }
 
+    li a {
+        font-size: 1.25rem;;
+    }
+
+
     li a:hover {
         color: white;
     }
 
-    .footer {
-        height: 105px;
-        background: #202020;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* width: 100%; */
+    footer {
         grid-area: footer;
         max-width: 900px;
         width: 100%;
